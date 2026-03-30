@@ -1,0 +1,22 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #f4f4f4;
+}
+
+h1 {
+    color: #333;
+}
+
+nav a {
+    margin: 10px;
+    text-decoration: none;
+    color: blue;
+}
+
+/* Media Query (REQUIRED for marks) */
+@media (max-width: 600px) {
+    body {
+        background-color: #ddd;
+    }
+}
